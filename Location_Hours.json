@@ -1,0 +1,29 @@
+[
+{
+	"id": "west_end",
+	"name": "West End",
+	"building": "Cochrane Hall",
+	"hours": {
+		"mon":[{"open": "10:30","close": "21:00"}],
+		"tue":[{"open": "10:30","close": "21:00"}],
+		"wed":[{"open": "10:30","close": "21:00"}],
+		"thur":[{"open": "10:30","close": "21:00"}],
+		"fri":[{"open": "10:30","close": "21:00"}],
+		"sat":[{"open": "10:30","close": "20:00"}],
+		"sun":[{"open": "10:30","close": "21:00"}]
+	}
+},
+{
+	"id":"turner",
+	"name": "Turner Place",
+	"building": "Lavery Hall",
+	"hours":{
+		"mon":[{"open": "10:30","close": "19:30"}],
+		"tue":[{"open": "10:30","close": "19:30"}],
+		"wed":[{"open": "10:30","close": "19:30"}],
+		"thur":[{"open": "10:30","close": "19:30"}],
+		"fri":[{"open": "10:30","close": "19:30"}]
+	}
+}
+]
+		
