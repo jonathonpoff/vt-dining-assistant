@@ -4,10 +4,25 @@ def scrape_hours():
     url = "https://apps.students.vt.edu/hours/fwa/uaMenu.json"
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Accept": "application/json,text/html,*/*"
     }
 
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, allow_redirects=True)
+    
+    print("Status:", response.status_code)
+    print("Final URL:", response.url)
+    print("Raw text:", response.text[:500])
+    
+    try:
+        data = response.json()
+    except Exception as e:
+        print("JSON decode failed:", e)
+        return{}
+    
+    print("Parsed JSON:", data)
+    return data
+    
 
     # Log non-200 responses
     if response.status_code != 200:
