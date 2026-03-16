@@ -6,6 +6,8 @@ from app.scrapers.label import scrape_label_page
 from app.llm import ask_llm
 
 def route_request(user_message):
+    from app.state import cached_hours
+    print("DEBUG HOURS COUNT:", len(cached_hours.get("units", [])))
     intent = classify_intent(user_message)
     context = {}
 
