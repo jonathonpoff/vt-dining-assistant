@@ -16,6 +16,7 @@ def scrape_hours():
 
     try:
         data = response.json()
+        print("Hours data:", data)
     except Exception as e:
         print("JSON decode failed:", e, response.text[:200])
         return {}
