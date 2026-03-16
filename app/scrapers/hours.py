@@ -4,8 +4,19 @@ def scrape_hours():
     url = "https://apps.students.vt.edu/hours/fwa/uaMenu.json"
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Accept": "application/json,text/html,*/*"
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/123.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://dining.vt.edu/",
+        "Origin": "https://dining.vt.edu",
+        "Sec-Fetch-Site": "same-site",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Dest": "empty",
+        "Connection": "keep-alive",
     }
 
     response = requests.get(url, headers=headers, allow_redirects=True)
