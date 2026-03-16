@@ -1,35 +1,29 @@
-import requests
-from datetime import date
+from pydantic import BaseModel
+from typing import List, Optional
+from fastapi import Body, Request, HTTPException
 
-BACKEND_URL = "https://your-backend-url.com/admin/update_hours"
-SECRET = "your-secret-token"
+class HourBlock(BaseModel):
+    label: str
+    open_time: str
+    close_time: str
 
-def fetch_hours_for_today():
-    today = date.today().strftime("%Y-%m-%d")
-    url = f"https://apps.students.vt.edu/hours/Api/NonRestricted/UnitsOpenOnDay/Date/{today}"
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.json()
+class UnitHoursNormalized(BaseModel):
+    unit_id: str
+    name: str
+    about_url: Optional[str]
+    menu_url: Optional[str]
+    hours: List[HourBlock]
 
-def normalize_hours(raw):
-    normalized = []
-    for unit in raw:
-        normalized.append({
-            "unit_id": unit.get("id"),
-            "unit_name": unit.get("name"),
-            "logo_url": unit.get("logo", {}).get("url"),
-            "urls": unit.get("urls", []),
-            "hours": unit.get("hours", []),
-        })
-    return normalized
+@app.post("/admin/update_hours")
+async def update_hours(
+    request: Request,
+    units: List[UnitHoursNormalized] = Body(...)
+):
+    token = request.headers.get("X-Admin-Token")
+    if token != HOURS_SECRET:
+        raise HTTPException(status_code=401, detail="Unauthorized")
 
-def upload_to_backend(data):
-    headers = {"X-Admin-Token": SECRET}
-    response = requests.post(BACKEND_URL, json=data, headers=headers)
-    response.raise_for_status()
-    print("Upload successful:", response.json())
+    cached_hours.clear()
+    cached_hours.update({"units": [u.dict() for u in units]})
 
-if __name__ == "__main__":
-    raw = fetch_hours_for_today()
-    normalized = normalize_hours(raw)
-    upload_to_backend(normalized)
+    return {"status": "ok", "units": len(units)}

@@ -1,0 +1,472 @@
+[
+  {
+    "unit_id": "42",
+    "name": "Dietrick - Allee",
+    "about_url": "https://dining.vt.edu/dining_centers/dietrick-hall.html",
+    "menu_url": null,
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "6",
+    "name": "Dietrick - D2",
+    "about_url": "https://dining.vt.edu/dining_centers/dietrick-hall.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=15&naFlag=1",
+    "hours": [
+      {
+        "label": "Breakfast",
+        "open_time": "07:00",
+        "close_time": "10:30"
+      },
+      {
+        "label": "Lunch",
+        "open_time": "10:30",
+        "close_time": "14:00"
+      },
+      {
+        "label": "Dinner",
+        "open_time": "17:00",
+        "close_time": "19:30"
+      }
+    ]
+  },
+  {
+    "unit_id": "7",
+    "name": "Dietrick - Deet's Place",
+    "about_url": "https://dining.vt.edu/dining_centers/dietrick-hall.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=72&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "23:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "9",
+    "name": "Dietrick - DX",
+    "about_url": "https://dining.vt.edu/dining_centers/dietrick-hall.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=71&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "18:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "31",
+    "name": "Dietrick - Futurebites in Xpress Lane Market",
+    "about_url": "https://dining.vt.edu/dining_centers/dietrick-hall.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=07&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "11:00",
+        "close_time": "22:30"
+      }
+    ]
+  },
+  {
+    "unit_id": "27",
+    "name": "Dietrick - Xpress Lane Market",
+    "about_url": "https://dining.vt.edu/dining_centers/dietrick-hall.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=07&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "02:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "1",
+    "name": "GLC - Ducky's Bubble Tea",
+    "about_url": "https://dining.vt.edu/dining_centers/duckys.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=01&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "08:30",
+        "close_time": "17:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "4",
+    "name": "Goodwin Hall - Viva Too",
+    "about_url": "https://dining.vt.edu/dining_centers/viva_too.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=01&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:30",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "30",
+    "name": "Johnston Student Center - VIVA Market",
+    "about_url": "https://dining.vt.edu/dining_centers/viva.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=19&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:30",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "8",
+    "name": "Owens Hall - Dunkin'",
+    "about_url": "https://dining.vt.edu/dining_centers/owens.html",
+    "menu_url": "https://www.dunkindonuts.com/en",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:30",
+        "close_time": "15:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "10",
+    "name": "Owens Hall - Hokie Grill & Co.",
+    "about_url": "https://dining.vt.edu/dining_centers/owens.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=09&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:30",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "11",
+    "name": "Owens Hall - Owens Food Court",
+    "about_url": "https://www.dining.vt.edu/dining_centers/owens.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=09&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "33",
+    "name": "Perry Place - Addison's Provisions",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "39",
+    "name": "Perry Place - AMP Coffee Bar",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "36",
+    "name": "Perry Place - Chick-Fil-A",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://www.chick-fil-a.com/menu",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "35",
+    "name": "Perry Place - Fresh & Feta",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "37",
+    "name": "Perry Place - Rambutan",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "38",
+    "name": "Perry Place - Smoke",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "09:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "41",
+    "name": "Perry Place - Solarex Diner",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "34",
+    "name": "Perry Place - Trax Deli",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:30",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "40",
+    "name": "Perry Place - Vel\u00f3ce",
+    "about_url": "https://dining.vt.edu/dining_centers/perryplace.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=06&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:00",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "5",
+    "name": "Squires Food Court - Burger '37",
+    "about_url": "https://www.dining.vt.edu/dining_centers/squires.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=18&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:30",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "2",
+    "name": "Squires Food Court - Corner '24 & Corner '24 Kiosk",
+    "about_url": "https://www.dining.vt.edu/dining_centers/squires.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=18&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "3",
+    "name": "Squires Food Court - Corner '24 Grab N' Go",
+    "about_url": "https://www.dining.vt.edu/dining_centers/squires.html",
+    "menu_url": "https://www.starbucks.com/menu",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "12",
+    "name": "Turner Place - 1872 Fire Grill",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:30",
+        "close_time": "19:30"
+      },
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "10:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "13",
+    "name": "Turner Place - Atomic Pizzeria",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:00",
+        "close_time": "16:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "14",
+    "name": "Turner Place - Bruegger's Bagels",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "15:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "15",
+    "name": "Turner Place - Dolci e Caffe",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "23",
+    "name": "Turner Place - Dolci e Caffe: Grab n Go",
+    "about_url": "https://dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "https://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "16",
+    "name": "Turner Place - Jamba",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "07:30",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "17",
+    "name": "Turner Place - Origami: Grill",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "11:00",
+        "close_time": "20:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "18",
+    "name": "Turner Place - Origami: Sushi",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "11:00",
+        "close_time": "18:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "19",
+    "name": "Turner Place - Qdoba",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:00",
+        "close_time": "21:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "20",
+    "name": "Turner Place - Soup Garden",
+    "about_url": "https://www.dining.vt.edu/dining_centers/turner.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=14&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:30",
+        "close_time": "19:00"
+      }
+    ]
+  },
+  {
+    "unit_id": "22",
+    "name": "West End",
+    "about_url": "https://www.dining.vt.edu/dining_centers/west_end.html",
+    "menu_url": "http://foodpro.students.vt.edu/menus/MenuAtLocation.aspx?locationNum=16&naFlag=1",
+    "hours": [
+      {
+        "label": "Regular Hours",
+        "open_time": "10:30",
+        "close_time": "21:00"
+      }
+    ]
+  }
+]
