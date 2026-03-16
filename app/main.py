@@ -1,3 +1,5 @@
+print(">>> USING CORRECT MAIN.PY <<<")
+
 from fastapi import FastAPI, Request, HTTPException
 from pydantic import BaseModel
 from app.app_router import route_request
