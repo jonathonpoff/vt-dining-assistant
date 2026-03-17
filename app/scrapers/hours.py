@@ -1,7 +1,7 @@
 import requests
 
 def scrape_hours():
-    url = "https://apps.students.vt.edu/hours/fwa/uaMenu.json"
+    url = "https://apps.students.vt.edu/hours/Api/NonRestricted/UnitsOpenOnDay/Date/2026-03-16"
 
     headers = {
         "User-Agent": (
