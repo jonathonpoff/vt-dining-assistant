@@ -30,6 +30,6 @@ async def update_hours(
     
     # write to file for persistence
     with open("hours.json", "w") as f:
-        json.dum(cached_hours, f)
+        json.dump(cached_hours, f)
         
     return {"status": "ok", "units": len(units)}
