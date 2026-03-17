@@ -4,5 +4,5 @@ cached_hours = {}
 try:
     with open("hours.json", "r") as f:
         cached_hours = json.load(f)
-    except FileNotFoundError:
+except FileNotFoundError:
         cached_hours = {}
