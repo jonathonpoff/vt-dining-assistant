@@ -12,9 +12,22 @@ def route_request(user_message):
     context = {}
 
     if intent == "OPEN_LOCATIONS":
-        hours = scrape_hours()
-        context["hours"] = hours
-
+        units = cached_hours.get("units",[])
+        
+        #1. extract the time the user is asking about
+        from app.time_utils import extract_requested_time, 
+        is_open_at_reqquested_time = extract_requested_time(user_message)
+        
+        #2. filter units BEFORE sending to LLM
+        open_units = [
+            u for u in units
+            if is_open_at(u, requested_time)
+        ]
+        
+        #3. pass only filtered units to the LLM
+        context["hours"] = open_units
+        context["requested_time"] = requested_time.strftime("%H:%M")
+        
     elif intent == "LOCATION_MENU":
         location = match_location(user_message)
         if not location:
