@@ -28,6 +28,10 @@ def route_request(user_message):
         context["hours"] = open_units
         context["requested_time"] = requested_time.strftime("%H:%M")
         
+        print("REQUESTED TIME:", requested_time)
+        for u in units:
+            print(u["name"], u["hours"])
+        
     elif intent == "LOCATION_MENU":
         location = match_location(user_message)
         if not location:
