@@ -15,8 +15,8 @@ def route_request(user_message):
         units = cached_hours.get("units",[])
         
         #1. extract the time the user is asking about
-        from app.time_utils import extract_requested_time, 
-        is_open_at_reqquested_time = extract_requested_time(user_message)
+        from app.time_utils import extract_requested_time, is_open_at
+        requested_time = extract_requested_time(user_message)
         
         #2. filter units BEFORE sending to LLM
         open_units = [
