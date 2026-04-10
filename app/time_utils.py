@@ -1,5 +1,6 @@
 from datetime import datetime, time
 import re
+import zoneinfo
 
 # ----------------------------------------
 # Parse the time the user is asking about
@@ -15,7 +16,8 @@ def extract_requested_time(message: str) -> time:
 
     # 1. "now", "right now", "currently"
     if "now" in msg or "right now" in msg or "currently" in msg:
-        return datetime.now().time()
+        eastern = zoneinfo.ZoneInfo("America/New_York")
+        return datetime.now(eastern).time()
 
     # 2. Look for explicit times like "8pm", "8:30 pm", "20:00"
     match = re.search(r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)?", msg)
@@ -33,7 +35,8 @@ def extract_requested_time(message: str) -> time:
         return time(hour, minute)
 
     # 3. Fallback → assume "now"
-    return datetime.now().time()
+    eastern = zoneinfo.ZoneInfo("America/New_York")
+    return datetime.now(eastern).time()
 
 
 # ----------------------------------------
