@@ -1,12 +1,4 @@
-from fastapi import APIRouter, Header, HTTPException, Request
-from typing import Optional
-from app.scrapers.hours import scrape_hours
-from app.state import cached_hours
-import json
-
-router = APIRouter()
-
-HOURS_SECRET = "your-secret-token"
+from datetime import date
 
 @router.post("/admin/update_hours")
 async def update_hours(
@@ -18,7 +10,10 @@ async def update_hours(
     if X_Admin_Token != HOURS_SECRET:
         raise HTTPException(status_code=401, detail="Unauthorized")
 
-    hours = scrape_hours("2026-04-13")
+    today = date.today().strftime("%Y-%m-%d")
+    print("FETCHING HOURS FOR:", today)
+
+    hours = scrape_hours(today)
 
     print("SCRAPED HOURS:")
     print(json.dumps(hours, indent=2))
