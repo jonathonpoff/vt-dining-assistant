@@ -14,6 +14,13 @@ def route_request(user_message):
     if intent == "OPEN_LOCATIONS":
         units = cached_hours.get("units",[])
         
+        from app.state import cached_hours
+        import json
+
+        print(">>> CURRENT CACHED HOURS:")
+        print(json.dumps(cached_hours, indent=2))
+
+        
         #1. extract the time the user is asking about
         from app.time_utils import extract_requested_time, is_open_at
         requested_time = extract_requested_time(user_message)

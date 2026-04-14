@@ -11,6 +11,7 @@ def extract_requested_time(message: str) -> time:
     Returns a datetime.time object representing the time the user is asking about.
     Defaults to 'now' if no explicit time is found.
     """
+    print("USING UPDATED TIME_UTILS")
 
     msg = message.lower()
 
