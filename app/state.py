@@ -1,8 +1,10 @@
 # app/state.py
+import json
+
 cached_hours = {}
 
 try:
-    with open("normalized_hours.json", "r") as f:
+    with open("hours.json", "r") as f:
         cached_hours = json.load(f)
 except FileNotFoundError:
-        cached_hours = {}
+    cached_hours = {}
