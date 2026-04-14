@@ -1,4 +1,13 @@
+from fastapi import APIRouter, Header, HTTPException
 from datetime import date
+import json
+
+from app.scrapers.hours import scrape_hours
+from app.state import cached_hours
+
+router = APIRouter()
+
+HOURS_SECRET = "your-secret-token"
 
 @router.post("/admin/update_hours")
 async def update_hours(
